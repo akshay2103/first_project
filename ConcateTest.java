@@ -10,7 +10,7 @@ public class ConcateTest {
 	public void testConcatenate() {
 		Junit test = new Junit();
 		String result = test.concatenate("one", "two");
-		assertEquals("onetwothree",result);
+		assertEquals("onetwo",result);
 
 	}
 
